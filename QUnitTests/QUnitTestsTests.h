@@ -1,5 +1,5 @@
 //
-//  QUnitTests.h
+//  QUnitTestsTests.h
 //  QUnitTests
 //
 //  Created by Kevin Malakoff on 7/29/12.
@@ -8,6 +8,6 @@
 
 #import <SenTestingKit/SenTestingKit.h>
 
-@interface QUnitTests : SenTestCase
+@interface QUnitTestsTests : SenTestCase
 
 @end

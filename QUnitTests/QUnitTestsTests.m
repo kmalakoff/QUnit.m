@@ -35,8 +35,8 @@
   notEqual(NO, YES, @"equal: NO != YES")
   notEqual(YES, NO, @"equal: YES != NO")
 
-  equal(1.2, 1.2, @"equal: 1.2 == 1.2")
-  notEqual(1.2, 3.14159, @"equal: 1.2 != 3.14159")
+  equal(1.2f, 1.2f, @"equal: 1.2 == 1.2")
+  notEqual(1.2f, 3.14159, @"equal: 1.2 != 3.14159")
 }
 
 @end

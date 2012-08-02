@@ -3,7 +3,7 @@
 ````
 QUnit.m
 ````
-QUnit.m brings [QUnit.js](http://www.qunit.com) syntax to SenTestingKit for testing Objective-C projects. The is useful if you are trying to port JavaScript libraries to Objective-C or want a more familiar testing syntax.
+QUnit.m brings [QUnit.js](http://qunitjs.com/) syntax to SenTestingKit for testing Objective-C projects. The is useful if you are trying to port JavaScript libraries to Objective-C or want a more familiar testing syntax.
 
 I wrote this to help me port Underscore.js to Objective-C in [_.m](https://github.com/kmalakoff/_.m) and to make Objective-C a little more script in [Subjective-Script](https://github.com/kmalakoff/SubjectiveScript.m) so you will find some good examples in those project's tests.
 

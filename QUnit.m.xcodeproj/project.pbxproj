@@ -60,6 +60,8 @@
 		0A371F8815C52F22000269BA /* QUnitTestsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QUnitTestsTests.h; sourceTree = "<group>"; };
 		0A371F8915C52F22000269BA /* QUnitTestsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QUnitTestsTests.m; sourceTree = "<group>"; };
 		0A3CA72615C99800001911B0 /* QUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QUnit.m; sourceTree = "<group>"; };
+		0A7EF1F815CA2C5F00693F87 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0A7EF1F915CA2C5F00693F87 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,8 @@
 		0A371F5D15C52F21000269BA = {
 			isa = PBXGroup;
 			children = (
+				0A7EF1F915CA2C5F00693F87 /* README.md */,
+				0A7EF1F815CA2C5F00693F87 /* LICENSE */,
 				0A2A8B6E15C7D540002A71DE /* Lib */,
 				0A371F6D15C52F21000269BA /* QUnit */,
 				0A371F8215C52F22000269BA /* QUnitTests */,

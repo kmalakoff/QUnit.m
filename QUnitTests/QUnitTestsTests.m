@@ -11,6 +11,11 @@
 
 @implementation QUnitTestsTests
 
+- (void)test_version
+{
+  equal(QUnit.VERSION, @"0.1.0", @"expected version");
+}
+
 - (void)testObjectiveCTypes
 {
   equal(@"hello world", @"hello world", @"equal: constant strings work")

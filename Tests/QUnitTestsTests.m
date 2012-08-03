@@ -34,7 +34,7 @@
 
 - (void)test_version
 {
-  equal(QUnit.VERSION, @"0.1.0", @"expected version");
+  equal(QUnit.VERSION, @"0.1.1", @"expected version");
 }
 
 - (void)testObjectiveCTypes

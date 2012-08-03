@@ -7,33 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A2A8B7415C7D540002A71DE /* QUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2A8B7115C7D540002A71DE /* QUnitTests.m */; };
-		0A2A8B7515C7D540002A71DE /* QUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2A8B7115C7D540002A71DE /* QUnitTests.m */; };
-		0A2A8B7615C7D540002A71DE /* QUWrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2A8B7315C7D540002A71DE /* QUWrap.m */; };
-		0A2A8B7715C7D540002A71DE /* QUWrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2A8B7315C7D540002A71DE /* QUWrap.m */; };
-		0A371F6C15C52F21000269BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A371F6B15C52F21000269BA /* Foundation.framework */; };
-		0A371F7B15C52F22000269BA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A371F7A15C52F22000269BA /* SenTestingKit.framework */; };
-		0A371F7E15C52F22000269BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A371F6B15C52F21000269BA /* Foundation.framework */; };
-		0A371F8115C52F22000269BA /* libQUnit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A371F6815C52F21000269BA /* libQUnit.a */; };
-		0A371F8715C52F22000269BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A371F8515C52F22000269BA /* InfoPlist.strings */; };
-		0A371F8A15C52F22000269BA /* QUnitTestsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A371F8915C52F22000269BA /* QUnitTestsTests.m */; };
-		0A3CA72715C99800001911B0 /* QUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3CA72615C99800001911B0 /* QUnit.m */; };
-		0A3CA72815C99800001911B0 /* QUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3CA72615C99800001911B0 /* QUnit.m */; };
-		0AF192CD15C5304A00937CC7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A371F7A15C52F22000269BA /* SenTestingKit.framework */; };
+		0AA5726615CB91DB00F54B36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A371F6B15C52F21000269BA /* Foundation.framework */; };
+		0AA5727415CB91DB00F54B36 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A371F7A15C52F22000269BA /* SenTestingKit.framework */; };
+		0AA5727715CB91DB00F54B36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A371F6B15C52F21000269BA /* Foundation.framework */; };
+		0AA572A115CB91F300F54B36 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A371F7A15C52F22000269BA /* SenTestingKit.framework */; };
+		0AA572B815CB921800F54B36 /* QUnitTestsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA572B715CB921800F54B36 /* QUnitTestsTests.m */; };
+		0AA572B915CB921800F54B36 /* QUnitTestsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA572B715CB921800F54B36 /* QUnitTestsTests.m */; };
+		0AA572CF15CB923500F54B36 /* Qunit.m_iOS-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 0AA572BC15CB923500F54B36 /* Qunit.m_iOS-Prefix.pch */; };
+		0AA572D515CB923500F54B36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AA572C015CB923500F54B36 /* InfoPlist.strings */; };
+		0AA572D615CB923500F54B36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AA572C015CB923500F54B36 /* InfoPlist.strings */; };
+		0AA572DE15CB923500F54B36 /* QUnit.m_OSX-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 0AA572C615CB923500F54B36 /* QUnit.m_OSX-Prefix.pch */; };
+		0AA572E415CB923500F54B36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AA572CA15CB923500F54B36 /* InfoPlist.strings */; };
+		0AA572E515CB923500F54B36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AA572CA15CB923500F54B36 /* InfoPlist.strings */; };
+		0AA572ED15CB92D800F54B36 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A371F7A15C52F22000269BA /* SenTestingKit.framework */; };
+		0AA572EF15CB92E700F54B36 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA572EE15CB92E700F54B36 /* Cocoa.framework */; };
+		0AA572F015CB92ED00F54B36 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A371F7A15C52F22000269BA /* SenTestingKit.framework */; };
+		0AA572F115CB92F800F54B36 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA572EE15CB92E700F54B36 /* Cocoa.framework */; };
+		0AA572FB15CB937C00F54B36 /* QUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA572F515CB937C00F54B36 /* QUnit.h */; };
+		0AA572FC15CB937C00F54B36 /* QUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA572F615CB937C00F54B36 /* QUnit.m */; };
+		0AA572FD15CB937C00F54B36 /* QUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA572F615CB937C00F54B36 /* QUnit.m */; };
+		0AA572FE15CB937C00F54B36 /* QUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA572F615CB937C00F54B36 /* QUnit.m */; };
+		0AA572FF15CB937C00F54B36 /* QUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA572F615CB937C00F54B36 /* QUnit.m */; };
+		0AA5730015CB937C00F54B36 /* QUnitTests.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA572F715CB937C00F54B36 /* QUnitTests.h */; };
+		0AA5730115CB937C00F54B36 /* QUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA572F815CB937C00F54B36 /* QUnitTests.m */; };
+		0AA5730215CB937C00F54B36 /* QUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA572F815CB937C00F54B36 /* QUnitTests.m */; };
+		0AA5730315CB937C00F54B36 /* QUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA572F815CB937C00F54B36 /* QUnitTests.m */; };
+		0AA5730415CB937C00F54B36 /* QUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA572F815CB937C00F54B36 /* QUnitTests.m */; };
+		0AA5730515CB937C00F54B36 /* QUWrap.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA572F915CB937C00F54B36 /* QUWrap.h */; };
+		0AA5730615CB937C00F54B36 /* QUWrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA572FA15CB937C00F54B36 /* QUWrap.m */; };
+		0AA5730715CB937C00F54B36 /* QUWrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA572FA15CB937C00F54B36 /* QUWrap.m */; };
+		0AA5730815CB937C00F54B36 /* QUWrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA572FA15CB937C00F54B36 /* QUWrap.m */; };
+		0AA5730915CB937C00F54B36 /* QUWrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA572FA15CB937C00F54B36 /* QUWrap.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0A371F7F15C52F22000269BA /* PBXContainerItemProxy */ = {
+		0AA5727815CB91DB00F54B36 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0A371F5F15C52F21000269BA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0A371F6715C52F21000269BA;
-			remoteInfo = QUnit;
+			remoteGlobalIDString = 0AA5726415CB91DB00F54B36;
+			remoteInfo = Qunit.m_iOS;
+		};
+		0AA572A315CB91F300F54B36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A371F5F15C52F21000269BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AA5728D15CB91F300F54B36;
+			remoteInfo = QUnit.m_OSX;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		0A371F6615C52F21000269BA /* CopyFiles */ = {
+		0AA5726315CB91DB00F54B36 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/${PRODUCT_NAME}";
@@ -45,69 +70,85 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0A2A8B6F15C7D540002A71DE /* QUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QUnit.h; sourceTree = "<group>"; };
-		0A2A8B7015C7D540002A71DE /* QUnitTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QUnitTests.h; sourceTree = "<group>"; };
-		0A2A8B7115C7D540002A71DE /* QUnitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QUnitTests.m; sourceTree = "<group>"; };
-		0A2A8B7215C7D540002A71DE /* QUWrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QUWrap.h; sourceTree = "<group>"; };
-		0A2A8B7315C7D540002A71DE /* QUWrap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QUWrap.m; sourceTree = "<group>"; };
-		0A371F6815C52F21000269BA /* libQUnit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libQUnit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A371F6B15C52F21000269BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		0A371F6F15C52F21000269BA /* QUnit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QUnit-Prefix.pch"; sourceTree = "<group>"; };
-		0A371F7915C52F22000269BA /* QUnitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QUnitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A371F7A15C52F22000269BA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		0A371F8415C52F22000269BA /* QUnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QUnitTests-Info.plist"; sourceTree = "<group>"; };
-		0A371F8615C52F22000269BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0A371F8815C52F22000269BA /* QUnitTestsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QUnitTestsTests.h; sourceTree = "<group>"; };
-		0A371F8915C52F22000269BA /* QUnitTestsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QUnitTestsTests.m; sourceTree = "<group>"; };
-		0A3CA72615C99800001911B0 /* QUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QUnit.m; sourceTree = "<group>"; };
 		0A7EF1F815CA2C5F00693F87 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0A7EF1F915CA2C5F00693F87 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		0AA5726515CB91DB00F54B36 /* libQUnit.m_iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libQUnit.m_iOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AA5727315CB91DB00F54B36 /* Qunit.m_iOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Qunit.m_iOSTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AA5727515CB91DB00F54B36 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0AA5728E15CB91F300F54B36 /* libQUnit.m_OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libQUnit.m_OSX.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AA5728F15CB91F300F54B36 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		0AA5729215CB91F300F54B36 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0AA5729315CB91F300F54B36 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0AA5729415CB91F300F54B36 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0AA572A015CB91F300F54B36 /* QUnit.m_OSXTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QUnit.m_OSXTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AA572B615CB921800F54B36 /* QUnitTestsTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QUnitTestsTests.h; sourceTree = "<group>"; };
+		0AA572B715CB921800F54B36 /* QUnitTestsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QUnitTestsTests.m; sourceTree = "<group>"; };
+		0AA572BC15CB923500F54B36 /* Qunit.m_iOS-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Qunit.m_iOS-Prefix.pch"; sourceTree = "<group>"; };
+		0AA572C115CB923500F54B36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0AA572C615CB923500F54B36 /* QUnit.m_OSX-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QUnit.m_OSX-Prefix.pch"; sourceTree = "<group>"; };
+		0AA572CB15CB923500F54B36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0AA572EE15CB92E700F54B36 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		0AA572F215CB933400F54B36 /* Qunit.m_iOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Qunit.m_iOSTests-Info.plist"; sourceTree = "<group>"; };
+		0AA572F315CB935E00F54B36 /* QUnit.m_OSXTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QUnit.m_OSXTests-Info.plist"; sourceTree = "<group>"; };
+		0AA572F515CB937C00F54B36 /* QUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QUnit.h; sourceTree = "<group>"; };
+		0AA572F615CB937C00F54B36 /* QUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QUnit.m; sourceTree = "<group>"; };
+		0AA572F715CB937C00F54B36 /* QUnitTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QUnitTests.h; sourceTree = "<group>"; };
+		0AA572F815CB937C00F54B36 /* QUnitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QUnitTests.m; sourceTree = "<group>"; };
+		0AA572F915CB937C00F54B36 /* QUWrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QUWrap.h; sourceTree = "<group>"; };
+		0AA572FA15CB937C00F54B36 /* QUWrap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QUWrap.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0A371F6515C52F21000269BA /* Frameworks */ = {
+		0AA5726215CB91DB00F54B36 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AF192CD15C5304A00937CC7 /* SenTestingKit.framework in Frameworks */,
-				0A371F6C15C52F21000269BA /* Foundation.framework in Frameworks */,
+				0AA572ED15CB92D800F54B36 /* SenTestingKit.framework in Frameworks */,
+				0AA5726615CB91DB00F54B36 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0A371F7515C52F22000269BA /* Frameworks */ = {
+		0AA5726F15CB91DB00F54B36 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A371F7B15C52F22000269BA /* SenTestingKit.framework in Frameworks */,
-				0A371F7E15C52F22000269BA /* Foundation.framework in Frameworks */,
-				0A371F8115C52F22000269BA /* libQUnit.a in Frameworks */,
+				0AA5727415CB91DB00F54B36 /* SenTestingKit.framework in Frameworks */,
+				0AA5727715CB91DB00F54B36 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AA5728B15CB91F300F54B36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA572F015CB92ED00F54B36 /* SenTestingKit.framework in Frameworks */,
+				0AA572EF15CB92E700F54B36 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AA5729C15CB91F300F54B36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA572F115CB92F800F54B36 /* Cocoa.framework in Frameworks */,
+				0AA572A115CB91F300F54B36 /* SenTestingKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A2A8B6E15C7D540002A71DE /* Lib */ = {
-			isa = PBXGroup;
-			children = (
-				0A2A8B6F15C7D540002A71DE /* QUnit.h */,
-				0A3CA72615C99800001911B0 /* QUnit.m */,
-				0A2A8B7015C7D540002A71DE /* QUnitTests.h */,
-				0A2A8B7115C7D540002A71DE /* QUnitTests.m */,
-				0A2A8B7215C7D540002A71DE /* QUWrap.h */,
-				0A2A8B7315C7D540002A71DE /* QUWrap.m */,
-			);
-			path = Lib;
-			sourceTree = "<group>";
-		};
 		0A371F5D15C52F21000269BA = {
 			isa = PBXGroup;
 			children = (
+				0AA572EE15CB92E700F54B36 /* Cocoa.framework */,
 				0A7EF1F915CA2C5F00693F87 /* README.md */,
 				0A7EF1F815CA2C5F00693F87 /* LICENSE */,
-				0A2A8B6E15C7D540002A71DE /* Lib */,
-				0A371F6D15C52F21000269BA /* QUnit */,
-				0A371F8215C52F22000269BA /* QUnitTests */,
+				0AA572F415CB937C00F54B36 /* Lib */,
+				0AA572B515CB921800F54B36 /* Tests */,
+				0AA572BA15CB923500F54B36 /* Config */,
 				0A371F6A15C52F21000269BA /* Frameworks */,
 				0A371F6915C52F21000269BA /* Products */,
 			);
@@ -116,8 +157,10 @@
 		0A371F6915C52F21000269BA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0A371F6815C52F21000269BA /* libQUnit.a */,
-				0A371F7915C52F22000269BA /* QUnitTests.octest */,
+				0AA5726515CB91DB00F54B36 /* libQUnit.m_iOS.a */,
+				0AA5727315CB91DB00F54B36 /* Qunit.m_iOSTests.octest */,
+				0AA5728E15CB91F300F54B36 /* libQUnit.m_OSX.a */,
+				0AA572A015CB91F300F54B36 /* QUnit.m_OSXTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,82 +170,178 @@
 			children = (
 				0A371F6B15C52F21000269BA /* Foundation.framework */,
 				0A371F7A15C52F22000269BA /* SenTestingKit.framework */,
+				0AA5727515CB91DB00F54B36 /* UIKit.framework */,
+				0AA5728F15CB91F300F54B36 /* Cocoa.framework */,
+				0AA5729115CB91F300F54B36 /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		0A371F6D15C52F21000269BA /* QUnit */ = {
+		0AA5729115CB91F300F54B36 /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0A371F6E15C52F21000269BA /* Supporting Files */,
+				0AA5729215CB91F300F54B36 /* AppKit.framework */,
+				0AA5729315CB91F300F54B36 /* CoreData.framework */,
+				0AA5729415CB91F300F54B36 /* Foundation.framework */,
 			);
-			path = QUnit;
+			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		0A371F6E15C52F21000269BA /* Supporting Files */ = {
+		0AA572B515CB921800F54B36 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				0A371F6F15C52F21000269BA /* QUnit-Prefix.pch */,
+				0AA572B615CB921800F54B36 /* QUnitTestsTests.h */,
+				0AA572B715CB921800F54B36 /* QUnitTestsTests.m */,
 			);
-			name = "Supporting Files";
+			path = Tests;
 			sourceTree = "<group>";
 		};
-		0A371F8215C52F22000269BA /* QUnitTests */ = {
+		0AA572BA15CB923500F54B36 /* Config */ = {
 			isa = PBXGroup;
 			children = (
-				0A371F8815C52F22000269BA /* QUnitTestsTests.h */,
-				0A371F8915C52F22000269BA /* QUnitTestsTests.m */,
-				0A371F8315C52F22000269BA /* Supporting Files */,
+				0AA572BB15CB923500F54B36 /* Qunit.m_iOS */,
+				0AA572BF15CB923500F54B36 /* Qunit.m_iOSTests */,
+				0AA572C515CB923500F54B36 /* QUnit.m_OSX */,
+				0AA572C915CB923500F54B36 /* QUnit.m_OSXTests */,
 			);
-			path = QUnitTests;
+			path = Config;
 			sourceTree = "<group>";
 		};
-		0A371F8315C52F22000269BA /* Supporting Files */ = {
+		0AA572BB15CB923500F54B36 /* Qunit.m_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				0A371F8415C52F22000269BA /* QUnitTests-Info.plist */,
-				0A371F8515C52F22000269BA /* InfoPlist.strings */,
+				0AA572BC15CB923500F54B36 /* Qunit.m_iOS-Prefix.pch */,
 			);
-			name = "Supporting Files";
+			path = Qunit.m_iOS;
+			sourceTree = "<group>";
+		};
+		0AA572BF15CB923500F54B36 /* Qunit.m_iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				0AA572C015CB923500F54B36 /* InfoPlist.strings */,
+				0AA572F215CB933400F54B36 /* Qunit.m_iOSTests-Info.plist */,
+			);
+			path = Qunit.m_iOSTests;
+			sourceTree = "<group>";
+		};
+		0AA572C515CB923500F54B36 /* QUnit.m_OSX */ = {
+			isa = PBXGroup;
+			children = (
+				0AA572C615CB923500F54B36 /* QUnit.m_OSX-Prefix.pch */,
+			);
+			path = QUnit.m_OSX;
+			sourceTree = "<group>";
+		};
+		0AA572C915CB923500F54B36 /* QUnit.m_OSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				0AA572CA15CB923500F54B36 /* InfoPlist.strings */,
+				0AA572F315CB935E00F54B36 /* QUnit.m_OSXTests-Info.plist */,
+			);
+			path = QUnit.m_OSXTests;
+			sourceTree = "<group>";
+		};
+		0AA572F415CB937C00F54B36 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				0AA572F515CB937C00F54B36 /* QUnit.h */,
+				0AA572F615CB937C00F54B36 /* QUnit.m */,
+				0AA572F715CB937C00F54B36 /* QUnitTests.h */,
+				0AA572F815CB937C00F54B36 /* QUnitTests.m */,
+				0AA572F915CB937C00F54B36 /* QUWrap.h */,
+				0AA572FA15CB937C00F54B36 /* QUWrap.m */,
+			);
+			path = Lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		0AA5728C15CB91F300F54B36 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA572CF15CB923500F54B36 /* Qunit.m_iOS-Prefix.pch in Headers */,
+				0AA572DE15CB923500F54B36 /* QUnit.m_OSX-Prefix.pch in Headers */,
+				0AA572FB15CB937C00F54B36 /* QUnit.h in Headers */,
+				0AA5730015CB937C00F54B36 /* QUnitTests.h in Headers */,
+				0AA5730515CB937C00F54B36 /* QUWrap.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		0A371F6715C52F21000269BA /* QUnit */ = {
+		0AA5726415CB91DB00F54B36 /* Qunit.m_iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0A371F8D15C52F22000269BA /* Build configuration list for PBXNativeTarget "QUnit" */;
+			buildConfigurationList = 0AA5728415CB91DB00F54B36 /* Build configuration list for PBXNativeTarget "Qunit.m_iOS" */;
 			buildPhases = (
-				0A371F6415C52F21000269BA /* Sources */,
-				0A371F6515C52F21000269BA /* Frameworks */,
-				0A371F6615C52F21000269BA /* CopyFiles */,
+				0AA5726115CB91DB00F54B36 /* Sources */,
+				0AA5726215CB91DB00F54B36 /* Frameworks */,
+				0AA5726315CB91DB00F54B36 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = QUnit;
-			productName = QUnit;
-			productReference = 0A371F6815C52F21000269BA /* libQUnit.a */;
+			name = Qunit.m_iOS;
+			productName = Qunit.m_iOS;
+			productReference = 0AA5726515CB91DB00F54B36 /* libQUnit.m_iOS.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		0A371F7815C52F22000269BA /* QUnitTests */ = {
+		0AA5727215CB91DB00F54B36 /* Qunit.m_iOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0A371F9015C52F22000269BA /* Build configuration list for PBXNativeTarget "QUnitTests" */;
+			buildConfigurationList = 0AA5728715CB91DB00F54B36 /* Build configuration list for PBXNativeTarget "Qunit.m_iOSTests" */;
 			buildPhases = (
-				0A371F7415C52F22000269BA /* Sources */,
-				0A371F7515C52F22000269BA /* Frameworks */,
-				0A371F7615C52F22000269BA /* Resources */,
-				0A371F7715C52F22000269BA /* ShellScript */,
+				0AA5726E15CB91DB00F54B36 /* Sources */,
+				0AA5726F15CB91DB00F54B36 /* Frameworks */,
+				0AA5727015CB91DB00F54B36 /* Resources */,
+				0AA5727115CB91DB00F54B36 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0A371F8015C52F22000269BA /* PBXTargetDependency */,
+				0AA5727915CB91DB00F54B36 /* PBXTargetDependency */,
 			);
-			name = QUnitTests;
-			productName = QUnitTests;
-			productReference = 0A371F7915C52F22000269BA /* QUnitTests.octest */;
+			name = Qunit.m_iOSTests;
+			productName = Qunit.m_iOSTests;
+			productReference = 0AA5727315CB91DB00F54B36 /* Qunit.m_iOSTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		0AA5728D15CB91F300F54B36 /* QUnit.m_OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AA572AF15CB91F300F54B36 /* Build configuration list for PBXNativeTarget "QUnit.m_OSX" */;
+			buildPhases = (
+				0AA5728A15CB91F300F54B36 /* Sources */,
+				0AA5728B15CB91F300F54B36 /* Frameworks */,
+				0AA5728C15CB91F300F54B36 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QUnit.m_OSX;
+			productName = QUnit.m_OSX;
+			productReference = 0AA5728E15CB91F300F54B36 /* libQUnit.m_OSX.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		0AA5729F15CB91F300F54B36 /* QUnit.m_OSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AA572B215CB91F300F54B36 /* Build configuration list for PBXNativeTarget "QUnit.m_OSXTests" */;
+			buildPhases = (
+				0AA5729B15CB91F300F54B36 /* Sources */,
+				0AA5729C15CB91F300F54B36 /* Frameworks */,
+				0AA5729D15CB91F300F54B36 /* Resources */,
+				0AA5729E15CB91F300F54B36 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AA572A415CB91F300F54B36 /* PBXTargetDependency */,
+			);
+			name = QUnit.m_OSXTests;
+			productName = QUnit.m_OSXTests;
+			productReference = 0AA572A015CB91F300F54B36 /* QUnit.m_OSXTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -227,25 +366,50 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0A371F6715C52F21000269BA /* QUnit */,
-				0A371F7815C52F22000269BA /* QUnitTests */,
+				0AA5726415CB91DB00F54B36 /* Qunit.m_iOS */,
+				0AA5727215CB91DB00F54B36 /* Qunit.m_iOSTests */,
+				0AA5728D15CB91F300F54B36 /* QUnit.m_OSX */,
+				0AA5729F15CB91F300F54B36 /* QUnit.m_OSXTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0A371F7615C52F22000269BA /* Resources */ = {
+		0AA5727015CB91DB00F54B36 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A371F8715C52F22000269BA /* InfoPlist.strings in Resources */,
+				0AA572D515CB923500F54B36 /* InfoPlist.strings in Resources */,
+				0AA572E415CB923500F54B36 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AA5729D15CB91F300F54B36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA572D615CB923500F54B36 /* InfoPlist.strings in Resources */,
+				0AA572E515CB923500F54B36 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0A371F7715C52F22000269BA /* ShellScript */ = {
+		0AA5727115CB91DB00F54B36 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		0AA5729E15CB91F300F54B36 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -261,42 +425,76 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0A371F6415C52F21000269BA /* Sources */ = {
+		0AA5726115CB91DB00F54B36 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A2A8B7415C7D540002A71DE /* QUnitTests.m in Sources */,
-				0A2A8B7615C7D540002A71DE /* QUWrap.m in Sources */,
-				0A3CA72715C99800001911B0 /* QUnit.m in Sources */,
+				0AA572FC15CB937C00F54B36 /* QUnit.m in Sources */,
+				0AA5730115CB937C00F54B36 /* QUnitTests.m in Sources */,
+				0AA5730615CB937C00F54B36 /* QUWrap.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0A371F7415C52F22000269BA /* Sources */ = {
+		0AA5726E15CB91DB00F54B36 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A371F8A15C52F22000269BA /* QUnitTestsTests.m in Sources */,
-				0A2A8B7515C7D540002A71DE /* QUnitTests.m in Sources */,
-				0A2A8B7715C7D540002A71DE /* QUWrap.m in Sources */,
-				0A3CA72815C99800001911B0 /* QUnit.m in Sources */,
+				0AA572B815CB921800F54B36 /* QUnitTestsTests.m in Sources */,
+				0AA572FD15CB937C00F54B36 /* QUnit.m in Sources */,
+				0AA5730215CB937C00F54B36 /* QUnitTests.m in Sources */,
+				0AA5730715CB937C00F54B36 /* QUWrap.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AA5728A15CB91F300F54B36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA572FE15CB937C00F54B36 /* QUnit.m in Sources */,
+				0AA5730315CB937C00F54B36 /* QUnitTests.m in Sources */,
+				0AA5730815CB937C00F54B36 /* QUWrap.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AA5729B15CB91F300F54B36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA572B915CB921800F54B36 /* QUnitTestsTests.m in Sources */,
+				0AA572FF15CB937C00F54B36 /* QUnit.m in Sources */,
+				0AA5730415CB937C00F54B36 /* QUnitTests.m in Sources */,
+				0AA5730915CB937C00F54B36 /* QUWrap.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0A371F8015C52F22000269BA /* PBXTargetDependency */ = {
+		0AA5727915CB91DB00F54B36 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0A371F6715C52F21000269BA /* QUnit */;
-			targetProxy = 0A371F7F15C52F22000269BA /* PBXContainerItemProxy */;
+			target = 0AA5726415CB91DB00F54B36 /* Qunit.m_iOS */;
+			targetProxy = 0AA5727815CB91DB00F54B36 /* PBXContainerItemProxy */;
+		};
+		0AA572A415CB91F300F54B36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AA5728D15CB91F300F54B36 /* QUnit.m_OSX */;
+			targetProxy = 0AA572A315CB91F300F54B36 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0A371F8515C52F22000269BA /* InfoPlist.strings */ = {
+		0AA572C015CB923500F54B36 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0A371F8615C52F22000269BA /* en */,
+				0AA572C115CB923500F54B36 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0AA572CA15CB923500F54B36 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AA572CB15CB923500F54B36 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -350,41 +548,39 @@
 			};
 			name = Release;
 		};
-		0A371F8E15C52F22000269BA /* Debug */ = {
+		0AA5728515CB91DB00F54B36 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_ARC = NO;
-				DSTROOT = /tmp/QUnit.dst;
+				DSTROOT = /tmp/Qunit_m_iOS.dst;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "QUnit/QUnit-Prefix.pch";
+				GCC_PREFIX_HEADER = "Config/Qunit.m_iOS/Qunit.m_iOS-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = QUnit.m_iOS;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		0A371F8F15C52F22000269BA /* Release */ = {
+		0AA5728615CB91DB00F54B36 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_ARC = NO;
-				DSTROOT = /tmp/QUnit.dst;
+				DSTROOT = /tmp/Qunit_m_iOS.dst;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "QUnit/QUnit-Prefix.pch";
+				GCC_PREFIX_HEADER = "Config/Qunit.m_iOS/Qunit.m_iOS-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = QUnit.m_iOS;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
-		0A371F9115C52F22000269BA /* Debug */ = {
+		0AA5728815CB91DB00F54B36 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -392,14 +588,14 @@
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "QUnit/QUnit-Prefix.pch";
-				INFOPLIST_FILE = "QUnitTests/QUnitTests-Info.plist";
+				GCC_PREFIX_HEADER = "Config/Qunit.m_iOS/Qunit.m_iOS-Prefix.pch";
+				INFOPLIST_FILE = "Config/Qunit.m_iOSTests/Qunit.m_iOSTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
-		0A371F9215C52F22000269BA /* Release */ = {
+		0AA5728915CB91DB00F54B36 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -407,9 +603,85 @@
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "QUnit/QUnit-Prefix.pch";
-				INFOPLIST_FILE = "QUnitTests/QUnitTests-Info.plist";
+				GCC_PREFIX_HEADER = "Config/Qunit.m_iOS/Qunit.m_iOS-Prefix.pch";
+				INFOPLIST_FILE = "Config/Qunit.m_iOSTests/Qunit.m_iOSTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		0AA572B015CB91F300F54B36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Config/QUnit.m_OSX/QUnit.m_OSX-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = QUnit.m_OSX;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0AA572B115CB91F300F54B36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Config/QUnit.m_OSX/QUnit.m_OSX-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = QUnit.m_OSX;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0AA572B315CB91F300F54B36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Config/QUnit.m_OSX/QUnit.m_OSX-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "Config/QUnit.m_OSXTests/QUnit.m_OSXTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0AA572B415CB91F300F54B36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Config/QUnit.m_OSX/QUnit.m_OSX-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "Config/QUnit.m_OSXTests/QUnit.m_OSXTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
@@ -426,23 +698,37 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0A371F8D15C52F22000269BA /* Build configuration list for PBXNativeTarget "QUnit" */ = {
+		0AA5728415CB91DB00F54B36 /* Build configuration list for PBXNativeTarget "Qunit.m_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0A371F8E15C52F22000269BA /* Debug */,
-				0A371F8F15C52F22000269BA /* Release */,
+				0AA5728515CB91DB00F54B36 /* Debug */,
+				0AA5728615CB91DB00F54B36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		0A371F9015C52F22000269BA /* Build configuration list for PBXNativeTarget "QUnitTests" */ = {
+		0AA5728715CB91DB00F54B36 /* Build configuration list for PBXNativeTarget "Qunit.m_iOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0A371F9115C52F22000269BA /* Debug */,
-				0A371F9215C52F22000269BA /* Release */,
+				0AA5728815CB91DB00F54B36 /* Debug */,
+				0AA5728915CB91DB00F54B36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+		};
+		0AA572AF15CB91F300F54B36 /* Build configuration list for PBXNativeTarget "QUnit.m_OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA572B015CB91F300F54B36 /* Debug */,
+				0AA572B115CB91F300F54B36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0AA572B215CB91F300F54B36 /* Build configuration list for PBXNativeTarget "QUnit.m_OSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA572B315CB91F300F54B36 /* Debug */,
+				0AA572B415CB91F300F54B36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

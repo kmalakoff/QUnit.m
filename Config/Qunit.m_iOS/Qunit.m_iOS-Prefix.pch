@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Qunit.m_iOS' target in the 'Qunit.m_iOS' project
+//
+
+#ifdef __OBJC__
+  #import <Foundation/Foundation.h>
+#endif

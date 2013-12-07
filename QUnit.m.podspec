@@ -18,5 +18,6 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Classes'
 
+  s.frameworks = 'SenTestingKit'
   s.public_header_files = 'Classes/**/*.h'
 end

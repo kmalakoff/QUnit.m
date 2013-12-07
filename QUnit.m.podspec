@@ -1,12 +1,6 @@
-#
-# Be sure to run `pod spec lint NAME.podspec' to ensure this is a
-# valid spec and remove all comments before submitting the spec.
-#
-# To learn more about the attributes see http://docs.cocoapods.org/specification.html
-#
 Pod::Spec.new do |s|
   s.name         = "QUnit.m"
-  s.version      = "0.1.2"
+  s.version      = "0.1.3"
   s.summary      = "QUnit.m brings syntax to SenTestingKit for testing Objective-C projects"
   s.description  = <<-DESC
                     QUnit.m brings [QUnit.js](http://qunitjs.com/) syntax to SenTestingKit for testing Objective-C projects. The is useful if you are trying to port JavaScript libraries to Objective-C or want a more familiar testing syntax.
@@ -23,7 +17,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'Classes'
-  s.resources = 'Assets'
 
   s.public_header_files = 'Classes/**/*.h'
 end

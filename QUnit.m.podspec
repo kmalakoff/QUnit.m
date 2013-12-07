@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "QUnit.m"
-  s.version      = "0.1.3"
+  s.version      = "0.1.2"
   s.summary      = "QUnit.m brings syntax to SenTestingKit for testing Objective-C projects"
   s.description  = <<-DESC
                     QUnit.m brings [QUnit.js](http://qunitjs.com/) syntax to SenTestingKit for testing Objective-C projects. The is useful if you are trying to port JavaScript libraries to Objective-C or want a more familiar testing syntax.

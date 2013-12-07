@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A9429BA1853C0D500E83236 /* QUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A9429B41853C0D500E83236 /* QUnit.h */; };
+		0A9429BB1853C0D500E83236 /* QUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9429B51853C0D500E83236 /* QUnit.m */; };
+		0A9429BC1853C0D500E83236 /* QUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9429B51853C0D500E83236 /* QUnit.m */; };
+		0A9429BD1853C0D500E83236 /* QUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9429B51853C0D500E83236 /* QUnit.m */; };
+		0A9429BE1853C0D500E83236 /* QUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9429B51853C0D500E83236 /* QUnit.m */; };
+		0A9429BF1853C0D500E83236 /* QUnitTests.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A9429B61853C0D500E83236 /* QUnitTests.h */; };
+		0A9429C01853C0D500E83236 /* QUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9429B71853C0D500E83236 /* QUnitTests.m */; };
+		0A9429C11853C0D500E83236 /* QUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9429B71853C0D500E83236 /* QUnitTests.m */; };
+		0A9429C21853C0D500E83236 /* QUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9429B71853C0D500E83236 /* QUnitTests.m */; };
+		0A9429C31853C0D500E83236 /* QUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9429B71853C0D500E83236 /* QUnitTests.m */; };
+		0A9429C41853C0D500E83236 /* QUWrap.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A9429B81853C0D500E83236 /* QUWrap.h */; };
+		0A9429C51853C0D500E83236 /* QUWrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9429B91853C0D500E83236 /* QUWrap.m */; };
+		0A9429C61853C0D500E83236 /* QUWrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9429B91853C0D500E83236 /* QUWrap.m */; };
+		0A9429C71853C0D500E83236 /* QUWrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9429B91853C0D500E83236 /* QUWrap.m */; };
+		0A9429C81853C0D500E83236 /* QUWrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9429B91853C0D500E83236 /* QUWrap.m */; };
 		0A9CC0E415D2685100FCD66A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A371F6B15C52F21000269BA /* Foundation.framework */; };
 		0A9CC0F215D2685200FCD66A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A371F7A15C52F22000269BA /* SenTestingKit.framework */; };
 		0A9CC0F415D2685200FCD66A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A371F6B15C52F21000269BA /* Foundation.framework */; };
 		0A9CC11915D2686600FCD66A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A371F7A15C52F22000269BA /* SenTestingKit.framework */; };
 		0A9CC14515D268A300FCD66A /* QUnitTestsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9CC14415D268A300FCD66A /* QUnitTestsTests.m */; };
 		0A9CC14615D268A300FCD66A /* QUnitTestsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9CC14415D268A300FCD66A /* QUnitTestsTests.m */; };
-		0A9CC14E15D268AD00FCD66A /* QUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A9CC14815D268AD00FCD66A /* QUnit.h */; };
-		0A9CC14F15D268AD00FCD66A /* QUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9CC14915D268AD00FCD66A /* QUnit.m */; };
-		0A9CC15015D268AD00FCD66A /* QUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9CC14915D268AD00FCD66A /* QUnit.m */; };
-		0A9CC15115D268AD00FCD66A /* QUnitTests.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A9CC14A15D268AD00FCD66A /* QUnitTests.h */; };
-		0A9CC15215D268AD00FCD66A /* QUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9CC14B15D268AD00FCD66A /* QUnitTests.m */; };
-		0A9CC15315D268AD00FCD66A /* QUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9CC14B15D268AD00FCD66A /* QUnitTests.m */; };
-		0A9CC15415D268AD00FCD66A /* QUWrap.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A9CC14C15D268AD00FCD66A /* QUWrap.h */; };
-		0A9CC15515D268AD00FCD66A /* QUWrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9CC14D15D268AD00FCD66A /* QUWrap.m */; };
-		0A9CC15615D268AD00FCD66A /* QUWrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9CC14D15D268AD00FCD66A /* QUWrap.m */; };
 		0A9CC15715D2690100FCD66A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A371F7A15C52F22000269BA /* SenTestingKit.framework */; };
 		0A9CC15815D2690B00FCD66A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA572EE15CB92E700F54B36 /* Cocoa.framework */; };
 		0A9CC15915D2691400FCD66A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A371F7A15C52F22000269BA /* SenTestingKit.framework */; };
@@ -64,6 +70,12 @@
 		0A371F7A15C52F22000269BA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		0A7EF1F815CA2C5F00693F87 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0A7EF1F915CA2C5F00693F87 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		0A9429B41853C0D500E83236 /* QUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QUnit.h; path = Classes/QUnit.h; sourceTree = SOURCE_ROOT; };
+		0A9429B51853C0D500E83236 /* QUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QUnit.m; path = Classes/QUnit.m; sourceTree = SOURCE_ROOT; };
+		0A9429B61853C0D500E83236 /* QUnitTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QUnitTests.h; path = Classes/QUnitTests.h; sourceTree = SOURCE_ROOT; };
+		0A9429B71853C0D500E83236 /* QUnitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QUnitTests.m; path = Classes/QUnitTests.m; sourceTree = SOURCE_ROOT; };
+		0A9429B81853C0D500E83236 /* QUWrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QUWrap.h; path = Classes/QUWrap.h; sourceTree = SOURCE_ROOT; };
+		0A9429B91853C0D500E83236 /* QUWrap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QUWrap.m; path = Classes/QUWrap.m; sourceTree = SOURCE_ROOT; };
 		0A9CC0E315D2685100FCD66A /* libQUnit.m-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libQUnit.m-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A9CC0F115D2685200FCD66A /* QUnit.m-iosTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QUnit.m-iosTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A9CC10B15D2686500FCD66A /* libQUnit.m-osx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libQUnit.m-osx.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,12 +88,6 @@
 		0A9CC13F15D2689A00FCD66A /* QUnit.m-osxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QUnit.m-osxTests-Info.plist"; sourceTree = "<group>"; };
 		0A9CC14315D268A300FCD66A /* QUnitTestsTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QUnitTestsTests.h; sourceTree = "<group>"; };
 		0A9CC14415D268A300FCD66A /* QUnitTestsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QUnitTestsTests.m; sourceTree = "<group>"; };
-		0A9CC14815D268AD00FCD66A /* QUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QUnit.h; sourceTree = "<group>"; };
-		0A9CC14915D268AD00FCD66A /* QUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QUnit.m; sourceTree = "<group>"; };
-		0A9CC14A15D268AD00FCD66A /* QUnitTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QUnitTests.h; sourceTree = "<group>"; };
-		0A9CC14B15D268AD00FCD66A /* QUnitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QUnitTests.m; sourceTree = "<group>"; };
-		0A9CC14C15D268AD00FCD66A /* QUWrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QUWrap.h; sourceTree = "<group>"; };
-		0A9CC14D15D268AD00FCD66A /* QUWrap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QUWrap.m; sourceTree = "<group>"; };
 		0AA5727515CB91DB00F54B36 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0AA5729215CB91F300F54B36 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		0AA5729315CB91F300F54B36 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -136,7 +142,7 @@
 			children = (
 				0A7EF1F915CA2C5F00693F87 /* README.md */,
 				0A7EF1F815CA2C5F00693F87 /* LICENSE */,
-				0A9CC14715D268AD00FCD66A /* Lib */,
+				0A9CC14715D268AD00FCD66A /* Classes */,
 				0A9CC14215D268A300FCD66A /* Tests */,
 				0A9CC12D15D2689A00FCD66A /* Config */,
 				0A371F6A15C52F21000269BA /* Frameworks */,
@@ -221,16 +227,17 @@
 			path = Tests;
 			sourceTree = "<group>";
 		};
-		0A9CC14715D268AD00FCD66A /* Lib */ = {
+		0A9CC14715D268AD00FCD66A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				0A9CC14815D268AD00FCD66A /* QUnit.h */,
-				0A9CC14915D268AD00FCD66A /* QUnit.m */,
-				0A9CC14A15D268AD00FCD66A /* QUnitTests.h */,
-				0A9CC14B15D268AD00FCD66A /* QUnitTests.m */,
-				0A9CC14C15D268AD00FCD66A /* QUWrap.h */,
-				0A9CC14D15D268AD00FCD66A /* QUWrap.m */,
+				0A9429B41853C0D500E83236 /* QUnit.h */,
+				0A9429B51853C0D500E83236 /* QUnit.m */,
+				0A9429B61853C0D500E83236 /* QUnitTests.h */,
+				0A9429B71853C0D500E83236 /* QUnitTests.m */,
+				0A9429B81853C0D500E83236 /* QUWrap.h */,
+				0A9429B91853C0D500E83236 /* QUWrap.m */,
 			);
+			name = Classes;
 			path = Lib;
 			sourceTree = "<group>";
 		};
@@ -251,9 +258,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A9CC14E15D268AD00FCD66A /* QUnit.h in Headers */,
-				0A9CC15115D268AD00FCD66A /* QUnitTests.h in Headers */,
-				0A9CC15415D268AD00FCD66A /* QUWrap.h in Headers */,
+				0A9429BF1853C0D500E83236 /* QUnitTests.h in Headers */,
+				0A9429C41853C0D500E83236 /* QUWrap.h in Headers */,
+				0A9429BA1853C0D500E83236 /* QUnit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,9 +420,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A9CC14F15D268AD00FCD66A /* QUnit.m in Sources */,
-				0A9CC15215D268AD00FCD66A /* QUnitTests.m in Sources */,
-				0A9CC15515D268AD00FCD66A /* QUWrap.m in Sources */,
+				0A9429BB1853C0D500E83236 /* QUnit.m in Sources */,
+				0A9429C01853C0D500E83236 /* QUnitTests.m in Sources */,
+				0A9429C51853C0D500E83236 /* QUWrap.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,7 +430,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A9429C11853C0D500E83236 /* QUnitTests.m in Sources */,
 				0A9CC14515D268A300FCD66A /* QUnitTestsTests.m in Sources */,
+				0A9429BC1853C0D500E83236 /* QUnit.m in Sources */,
+				0A9429C61853C0D500E83236 /* QUWrap.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,9 +441,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A9CC15015D268AD00FCD66A /* QUnit.m in Sources */,
-				0A9CC15315D268AD00FCD66A /* QUnitTests.m in Sources */,
-				0A9CC15615D268AD00FCD66A /* QUWrap.m in Sources */,
+				0A9429BD1853C0D500E83236 /* QUnit.m in Sources */,
+				0A9429C21853C0D500E83236 /* QUnitTests.m in Sources */,
+				0A9429C71853C0D500E83236 /* QUWrap.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,7 +451,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A9429C31853C0D500E83236 /* QUnitTests.m in Sources */,
 				0A9CC14615D268A300FCD66A /* QUnitTestsTests.m in Sources */,
+				0A9429BE1853C0D500E83236 /* QUnit.m in Sources */,
+				0A9429C81853C0D500E83236 /* QUWrap.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

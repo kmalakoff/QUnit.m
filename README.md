@@ -1,7 +1,8 @@
+# QUnit.m
 
-````
-QUnit.m
-````
+[![Version](http://cocoapod-badges.herokuapp.com/v/QUnit.m/badge.png)](http://cocoadocs.org/docsets/QUnit.m)
+[![Platform](http://cocoapod-badges.herokuapp.com/p/QUnit.m/badge.png)](http://cocoadocs.org/docsets/QUnit.m)
+
 QUnit.m brings [QUnit.js](http://qunitjs.com/) syntax to SenTestingKit for testing Objective-C projects. The is useful if you are trying to port JavaScript libraries to Objective-C or want a more familiar testing syntax.
 
 I wrote this to help me port Underscore.js to Objective-C in [_.m](https://github.com/kmalakoff/_.m) and to make Objective-C a little more script in [Subjective-Script](https://github.com/kmalakoff/SubjectiveScript.m) so you will find some good examples in those project's tests.
@@ -61,3 +62,24 @@ asyncTest(^{
   SS.setTimeout(^{ called2 = true; start(); }, NSEC_PER_SEC*2);
 });
 ```
+
+## Usage
+
+To run the example project; clone the repo, and run `pod install` from the Project directory first.
+
+## Requirements
+
+## Installation
+
+QUnit.m is available through [CocoaPods](http://cocoapods.org), to install
+it simply add the following line to your Podfile:
+
+    pod "QUnit.m"
+
+## Author
+
+Kevin Malakoff, kmalakoff@gmail.com
+
+## License
+
+QUnit.m is available under the MIT license. See the LICENSE file for more info.
